@@ -1,0 +1,20 @@
+---
+# Repositories to exclude
+# Possible values: 'validated' and 'certified'
+exclude_repositories:
+# - 'validated'
+# - 'certified'
+
+# Collection names to exclude
+# Either as fully qualified collection name (e.g. 'infra.leapp') or collection name only (e.g. 'controller')
+exclude_collections:
+#  - 'infra.leapp'
+#  - 'satellite_operations'
+
+# Namespaces to exclude
+# All collections from these namespaces will be considered
+exclude_namespaces:
+#  - 'redhat'
+#  - 'infra'
+#  - 'ansible'
+#  - 'cisco'
